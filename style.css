@@ -1,0 +1,10 @@
+label{
+  display: block;
+}
+fieldset{
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+}
+form:not([hidden]){
+  display: inline;
+}

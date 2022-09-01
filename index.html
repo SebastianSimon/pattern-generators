@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Pattern Generator</title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="favicon.svg" rel="shortcut icon"/>
+  <script src="patterns.mjs" type="module"></script>
+</head>
+
+<body>
+  <div id="generatorSelector">
+    <select autofocus>
+      <option disabled selected>Choose a pattern …</option>
+    </select>
+    <input type="button" value="Add new pattern generator"/>
+  </div>
+  <div id="descriptionContainer"></div>
+  <div id="canvasContainer">
+    <canvas></canvas>
+  </div>
+  <div id="regenerate" hidden>
+    <input type="button" value="Generate new pattern"/>
+  </div>
+  <div id="optionsContainer"></div>
+  <template id="optionsFieldset">
+    <fieldset>
+      <legend>Options</legend>
+    </fieldset>
+  </template>
+</body>
+</html>
